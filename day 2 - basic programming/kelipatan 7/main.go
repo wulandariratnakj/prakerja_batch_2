@@ -17,6 +17,8 @@ func main() {
 
 		if i%7 == 0 {
 			fmt.Println(i)
+		} else {
+			break
 		}
 	}
 
